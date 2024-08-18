@@ -1,0 +1,6 @@
+runtime: python39  # or python38, python37, etc.
+entrypoint: gunicorn -b :$PORT main:app  # Replace with the correct command for your app
+
+handlers:
+- url: /.*
+  script: auto
