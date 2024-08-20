@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 from tensorflow import keras
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from fastapi.responses import JSONResponse, StreamingResponse

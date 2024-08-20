@@ -1,10 +1,10 @@
 import pandas as pd
 import numpy as np
 from tensorflow import keras
-from keras.models import Sequential, load_model
-from keras.layers import Dense, LSTM, Dropout, Bidirectional
-from keras.optimizers import Adam
-from keras.callbacks import EarlyStopping, ModelCheckpoint
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, LSTM, Dropout, Bidirectional
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 

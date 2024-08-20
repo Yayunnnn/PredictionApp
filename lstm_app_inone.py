@@ -6,9 +6,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow import keras
-from keras.layers import Dense
-from keras.models import Sequential, load_model
-from keras.layers import LSTM
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import LSTM
 from fastapi.responses import JSONResponse, StreamingResponse
 import matplotlib.pyplot as plt
 import io
